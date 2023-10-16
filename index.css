@@ -1,9 +1,22 @@
+@font-face {
+    font-family: NotoSansMono;
+    src: url(res/font/NotoSansMono-VariableFont_wdth,wght.ttf);
+}
+
 .background{
     background-color: #151719;
 }
 
 .text{
     color: #C0D0E0;
+    font-family: NotoSansMono, monospace;
+}
+
+.title{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 12px;
+    font-family: NotoSansMono, monospace;
 }
 
 .main{
@@ -13,7 +26,7 @@
 .header {
     width: 80%;
     margin-left: 10%;
-    height: 60px;
+    height: 80px;
     position: fixed;
     top: 0;
     background: #151719;
