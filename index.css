@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100;300;400;500;600;700&display=swap');
+
 :root {
     --bg-color: #141414;
     --text-color: #C0D0E0;
@@ -5,11 +7,6 @@
     --highlight-color-2: #E764FF50;
     --mouse-x: 0;
     --mouse-y: 0;
-}
-
-@font-face {
-    font-family: NotoSansMono;
-    src: url(res/font/NotoSansMono-VariableFont_wdth,wght.ttf);
 }
 
 body {
@@ -29,14 +26,14 @@ body {
 
 .text{
     color: var(--text-color);
-    font-family: NotoSansMono, monospace;
+    font-family: 'Noto Sans Mono', monospace;
 }
 
 .title{
     text-align: center;
     font-size: 40px;
     margin-top: 12px;
-    font-family: NotoSansMono, monospace;
+    font-family: 'Noto Sans Mono', monospace;
 }
 
 .main{
