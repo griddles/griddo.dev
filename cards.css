@@ -23,7 +23,7 @@ body {
 }
 
 .card {
-    background-image: linear-gradient(to bottom right, var(--highlight-color-1), var(--highlight-color-2));
+    background-image: linear-gradient(to bottom right, var(--lowlight-color-1), var(--lowlight-color-2));
     border-radius: 10px;
     cursor: pointer;
     display: flex;

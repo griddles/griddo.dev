@@ -1,0 +1,62 @@
+html, body, section {
+    block-size: 100%;
+}
+
+html {
+    scroll-snap-type: y mandatory;
+}
+
+section {
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section:nth-of-type(odd) {
+    color: var(--text-color);
+    background-image: linear-gradient(to right, var(--highlight-color-1), var(--highlight-color-2));
+}
+
+section:nth-of-type(even) {
+    color: var(--text-color);
+    background-image: linear-gradient(to right, var(--highlight-color-2), var(--highlight-color-1));
+}
+
+.foreground
+{
+    background: var(--bg-color);
+    height: 100%;
+    width: 70%;
+}
+
+.foreground > div
+{
+    margin-top: 100px;
+    margin-left: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.me
+{
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+.pfp
+{
+    border-radius: 20%;
+}
+
+body {
+    margin: 0;
+}
+
+.fixheader
+{
+    margin-left: 10%;
+}
