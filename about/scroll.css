@@ -2,6 +2,8 @@ html, body, section {
     block-size: 100%;
 }
 
+/* we out here strapped in the IDE, making useless changes hoping that it fixes the problem */
+
 html {
     scroll-snap-type: y mandatory;
 }
