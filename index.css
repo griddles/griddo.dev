@@ -148,6 +148,11 @@ section:nth-of-type(even) {
     display: inline;
 }
 
+.me > div
+{
+    margin-top: 12px;
+}
+
 .pfp
 {
     border-radius: 20%;

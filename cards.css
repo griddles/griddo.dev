@@ -98,14 +98,14 @@ h1, h2, h3, h4, span {
 .card-image {
     align-items: center;
     display: flex;
-    height: 140px;
+    height: 180px;
     justify-content: center;
     overflow: hidden;
 }
 
 .card-image > i {
-    font-size: 6em;
-    opacity: 0.25;
+    font-size: 8em;
+    opacity: 0.1;
 }
 
 .card-info-wrapper {
