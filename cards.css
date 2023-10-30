@@ -16,6 +16,7 @@ body {
 #cards {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
     gap: 8px;
     max-width: 1366px;
     width: calc(100% - 20px);
@@ -28,7 +29,6 @@ body {
     cursor: pointer;
     display: flex;
     height: 320px;
-    flex-direction: column;
     position: relative;
     width: 450px;
 }
@@ -87,7 +87,7 @@ body {
     z-index: 2;
 }
 
-/* -- ↓ ↓ ↓ extra card content styles ↓ ↓ ↓ -- */
+/* -- extra card content styles -- */
 
 h1, h2, h3, h4, span {
     font-family: 'Noto Sans Mono', monospace;
@@ -138,9 +138,9 @@ h1, h2, h3, h4, span {
     margin-top: 8px;
 }
 
-/* -- ↓ ↓ ↓ some responsiveness ↓ ↓ ↓ -- */
+/* -- ↓ ↓ ↓ some responsiveness -- */
 
-@media(max-width: 1000px) {
+@media(max-width: 1400px) {
     body {
         align-items: flex-start;
         overflow: auto;
@@ -157,7 +157,7 @@ h1, h2, h3, h4, span {
     }
 }
 
-@media(max-width: 500px) {
+@media(max-width: 800px) {
     .card {
         height: 180px;
     }
@@ -188,7 +188,7 @@ h1, h2, h3, h4, span {
     }
 }
 
-@media(max-width: 320px) {
+@media(max-width: 500px) {
     .card {
         width: 100%;
     }
