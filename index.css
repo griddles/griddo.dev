@@ -135,10 +135,19 @@ section:nth-of-type(even) {
 
 .foreground > div
 {
-    margin-top: 100px;
     margin-left: 20px;
+}
+
+.page
+{
+    margin-top: 100px;
     display: flex;
     gap: 20px;
+}
+
+.subpara
+{
+    margin-top: 12px;
 }
 
 .me
