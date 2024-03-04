@@ -22,7 +22,7 @@ a:hover {
     color:var(--lowlight-color-1);
 }
 a:active {
-    color:var(--highlight-color-1);
+    color:var(--lowlight-color-2);
 }
 
 .body {
