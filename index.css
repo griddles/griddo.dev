@@ -161,6 +161,7 @@ section:nth-of-type(even) {
 .subpara
 {
     margin-top: 12px;
+    font-size: 1.1em;
 }
 
 .me
@@ -168,6 +169,7 @@ section:nth-of-type(even) {
     margin: 0;
     padding: 0;
     display: inline;
+    font-size: 1.2em;
 }
 
 .me > div
