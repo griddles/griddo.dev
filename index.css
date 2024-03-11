@@ -155,7 +155,7 @@ section:nth-of-type(even) {
 {
     margin-top: 100px;
     display: flex;
-    gap: 20px;
+    gap: 2%;
 }
 
 .subpara
@@ -190,4 +190,9 @@ body {
 .fixheader
 {
     margin-left: 10%;
+}
+
+.cpw {
+    width: 48%;
+    max-width: 250px;
 }
