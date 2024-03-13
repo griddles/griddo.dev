@@ -161,7 +161,7 @@ section:nth-of-type(even) {
 .subpara
 {
     margin-top: 24px;
-    font-size: 1.1em;
+    font-size: 1.2em;
 }
 
 .me
@@ -169,7 +169,7 @@ section:nth-of-type(even) {
     margin: 0;
     padding: 0;
     display: inline;
-    font-size: 1.2em;
+    font-size: 1.4em;
 }
 
 .me > div
@@ -193,6 +193,11 @@ body {
 }
 
 .cpw {
-    width: 48%;
+    width: 47.5%;
     max-width: 250px;
+}
+
+.tpz {
+    width: 97%;
+    max-width: 600px;
 }
