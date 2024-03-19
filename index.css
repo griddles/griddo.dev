@@ -202,6 +202,11 @@ body {
     max-width: 600px;
 }
 
+.uwr {
+    width:40%;
+    max-width:300px;
+}
+
 .scroll {
     position: absolute;
     bottom: 0;
