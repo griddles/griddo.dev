@@ -2,17 +2,6 @@
     --card-color: rgb(23, 23, 23);
 }
 
-body {
-    align-items: center;
-    background-color: var(--bg-color);
-    display: flex;
-    height: 100vh;
-    justify-content: center;
-    margin: 0;
-    overflow: hidden;
-    padding: 0;
-}
-
 #cards {
     display: flex;
     flex-wrap: wrap;
