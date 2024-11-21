@@ -149,6 +149,17 @@ section:nth-of-type(even) {
     font-size: 1.2em;
 }
 
+.dompara
+{
+    margin-top: 24px;
+    font-size: 1.5em;
+}
+
+.dompara p
+{
+    margin-top: 16px;
+}
+
 .me
 {
     margin: 0;
